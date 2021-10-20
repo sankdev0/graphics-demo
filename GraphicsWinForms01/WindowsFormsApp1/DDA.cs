@@ -6,7 +6,7 @@ namespace GraphicsWinForms01
 {
     class DDA
     {
-        public PointF[] Dda_line(float x1, float y1, float x2, float y2)
+        public PointF[] DrawLineDDA(float x1, float y1, float x2, float y2)
         {
             int i, L, xstart, ystart, xend, yend;
             float dX, dY;

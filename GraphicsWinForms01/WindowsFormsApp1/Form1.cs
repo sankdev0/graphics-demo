@@ -6,7 +6,7 @@ namespace GraphicsWinForms01
 {
     public partial class Form1 : Form
     {
-        public Bitmap bmp = new Bitmap(599, 362);
+        public Bitmap bmp = new Bitmap(1000, 362);
 
         public Form1()
         {
@@ -22,7 +22,7 @@ namespace GraphicsWinForms01
             Graphics graf = Graphics.FromImage(bmp);
             Pen pen = new Pen(Color.Red, 10);
             DDA dDA = new DDA();
-            graf.DrawLines(pen, dDA.Dda_line(float.Parse(X1textBox1.Text), float.Parse(Y1textBox2.Text),
+            graf.DrawLines(pen, dDA.DrawLineDDA(float.Parse(X1textBox1.Text), float.Parse(Y1textBox2.Text),
             float.Parse(X2textBox3.Text), float.Parse(Y2textBox4.Text)));
             Console.WriteLine("===>> Before imp");
             pictureBox1.Image = bmp;
@@ -36,9 +36,8 @@ namespace GraphicsWinForms01
             if (Y2textBox4.Text == "") Y2textBox4.Text = Convert.ToString(0);
             Graphics graf = Graphics.FromImage(bmp);
             Pen pen = new Pen(Color.Blue, 10);
-            Brazenhem brazenhem = new Brazenhem();
-            graf.DrawLines(pen, brazenhem.BresenhamLine(int.Parse(X1textBox1.Text), int.Parse(Y1textBox2.Text),
-            int.Parse(X2textBox3.Text), int.Parse(Y2textBox4.Text)));
+            Bresenham brazenhem = new Bresenham();
+            graf.DrawLines(pen, brazenhem.BresenhamLine(int.Parse(X1textBox1.Text), int.Parse(Y1textBox2.Text), int.Parse(X2textBox3.Text), int.Parse(Y2textBox4.Text)));
             pictureBox1.Image = bmp;
         }
 

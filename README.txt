@@ -5,4 +5,4 @@ Each program is a Visual Studio solution.
 
 1. Demo drawing lines - GraphicsWinForms01;
 2. Demo drawing circles - GraphicsWinForms02;
-3. 
+3. Demo of geometric shapes - Graphics03.

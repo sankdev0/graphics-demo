@@ -1,0 +1,10 @@
+G:\repos\uni\graphics-demo\GraphicsWinForms02\GraphicsWinForms02\bin\Debug\GraphicsWinForms02.exe.config
+G:\repos\uni\graphics-demo\GraphicsWinForms02\GraphicsWinForms02\bin\Debug\GraphicsWinForms02.exe
+G:\repos\uni\graphics-demo\GraphicsWinForms02\GraphicsWinForms02\bin\Debug\GraphicsWinForms02.pdb
+G:\repos\uni\graphics-demo\GraphicsWinForms02\GraphicsWinForms02\obj\Debug\GraphicsWinForms02.csproj.AssemblyReference.cache
+G:\repos\uni\graphics-demo\GraphicsWinForms02\GraphicsWinForms02\obj\Debug\GraphicsWinForms02.Form1.resources
+G:\repos\uni\graphics-demo\GraphicsWinForms02\GraphicsWinForms02\obj\Debug\GraphicsWinForms02.Properties.Resources.resources
+G:\repos\uni\graphics-demo\GraphicsWinForms02\GraphicsWinForms02\obj\Debug\GraphicsWinForms02.csproj.GenerateResource.cache
+G:\repos\uni\graphics-demo\GraphicsWinForms02\GraphicsWinForms02\obj\Debug\GraphicsWinForms02.csproj.CoreCompileInputs.cache
+G:\repos\uni\graphics-demo\GraphicsWinForms02\GraphicsWinForms02\obj\Debug\GraphicsWinForms02.exe
+G:\repos\uni\graphics-demo\GraphicsWinForms02\GraphicsWinForms02\obj\Debug\GraphicsWinForms02.pdb
